@@ -12,10 +12,11 @@ Designed to bridge the gap between **"machine detection confidence"** and **"hum
 -   **Zero-shot Quality Assessment**: Evaluates physical conditions (rust, dirt, fading) using natural language prompts without relying on specific damaged-data training.
 -   **3-Tier Safety Logic**: Classifies signs into **PASS**, **MAINTENANCE**, or **FAIL** based on legibility and physical condition.
 -   **Automated Reporting**: Generates visual results (color-coded boxes) and a structured CSV report.
-
+<img width="1204" height="827" alt="스크린샷 2025-12-15 19 35 26" src="https://github.com/user-attachments/assets/50f4ffe5-4064-4f2d-9f83-7b9655c84c43" />
 ---
 
-## HOW TO USE
+## HOW TO USE 
+
 
 1.  **Environment Setup**
     Ensure you have Python 3.8+ and a CUDA-capable GPU. Install the required libraries:
@@ -221,6 +222,7 @@ Ethical Considerations
 * 본 저장소는 저작권이 제한된 데이터셋을 재배포하지 않습니다
 * 본 프로젝트의 목적은 데이터 공개가 아닌 시스템 설계 및 추론 로직 검증입니다
 * 이미지 소유자가 출처 표기 또는 삭제를 요청할 경우 즉시 조치합니다
+
 
 
 
