@@ -174,8 +174,8 @@ This work demonstrates how Vision-Language Models can **augment conventional obj
 
 <br>
 
-Image Sources & Data Attribution
-Traffic Sign Images
+## Image Sources & Data Attribution
+**Traffic Sign Images**
 This project uses a combination of publicly available real-world traffic sign images and synthetically generated images for system demonstration and evaluation purposes.
 1. Real-world Images
 * Collected from public road environments and open-access datasets
@@ -204,7 +204,7 @@ Ethical Considerations
 * It is not intended for real-time autonomous driving decisions
 * All evaluations are performed offline with human-in-the-loop review recommended for deployment
 
- 이미지 출처 및 데이터 사용 안내
+## 이미지 출처 및 데이터 사용 안내
 본 프로젝트는 공개 접근이 가능한 실제 교통 표지판 이미지와 실험 목적의 합성(Synthetic) 이미지를 함께 사용합니다.
 1. 실제 이미지
 * 공개된 도로 환경에서 촬영되었거나 공개 라이선스 기반 데이터셋에서 수집
@@ -221,5 +221,6 @@ Ethical Considerations
 * 본 저장소는 저작권이 제한된 데이터셋을 재배포하지 않습니다
 * 본 프로젝트의 목적은 데이터 공개가 아닌 시스템 설계 및 추론 로직 검증입니다
 * 이미지 소유자가 출처 표기 또는 삭제를 요청할 경우 즉시 조치합니다
+
 
 
