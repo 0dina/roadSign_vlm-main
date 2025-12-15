@@ -166,3 +166,60 @@ This work demonstrates how Vision-Language Models can **augment conventional obj
 
 
 본 프로젝트는 기존 객체 탐지 시스템을 수정하거나 재학습하지 않고, **Vision-Language Model을 결합하여 유지보수 판단이 가능한 인프라 관리 시스템으로 확장한 실증 사례**입니다.
+
+<br>
+
+---
+---
+
+<br>
+
+Image Sources & Data Attribution
+Traffic Sign Images
+This project uses a combination of publicly available real-world traffic sign images and synthetically generated images for system demonstration and evaluation purposes.
+1. Real-world Images
+* Collected from public road environments and open-access datasets
+* Used strictly for research and non-commercial purposes
+* No personally identifiable information (PII) is included
+* Images are used only to evaluate visual legibility and physical condition of traffic signs
+Example sources include:
+* Public-domain or open-license road scene images
+* Self-collected photographs taken in public spaces
+2. Synthetic Images
+* Artificially generated traffic sign images created for controlled experiments
+* Used to simulate various conditions such as:
+    * Dirt, rust, fading
+    * Partial occlusion
+    * Physical degradation
+* Synthetic samples are clearly labeled (e.g., *_synth.png) and are not intended to represent real traffic environments
+
+Dataset Usage Notice
+* This repository does not redistribute proprietary or restricted datasets
+* Images are used solely to demonstrate the proposed VLM-based quality assessment pipeline
+* The project focuses on system design and reasoning logic, not dataset construction
+If you are the owner of any image used in this project and believe attribution or removal is required, please open an issue or contact the author.
+
+Ethical Considerations
+* The system is designed for research and infrastructure maintenance support
+* It is not intended for real-time autonomous driving decisions
+* All evaluations are performed offline with human-in-the-loop review recommended for deployment
+
+ 이미지 출처 및 데이터 사용 안내
+본 프로젝트는 공개 접근이 가능한 실제 교통 표지판 이미지와 실험 목적의 합성(Synthetic) 이미지를 함께 사용합니다.
+1. 실제 이미지
+* 공개된 도로 환경에서 촬영되었거나 공개 라이선스 기반 데이터셋에서 수집
+* 연구 및 비상업적 목적에 한하여 사용
+* 개인 식별 정보(PII)는 포함하지 않음
+* 교통 표지판의 시인성 및 물리적 상태 평가 목적으로만 활용
+2. 합성 이미지
+* 실험 통제를 위해 인위적으로 생성된 이미지
+* 녹, 오염, 변색, 가림 현상 등을 시뮬레이션하기 위해 사용
+* 파일명에 _synth로 명확히 구분됨
+* 실제 도로 환경을 그대로 재현하는 목적은 아님
+
+데이터 사용 고지
+* 본 저장소는 저작권이 제한된 데이터셋을 재배포하지 않습니다
+* 본 프로젝트의 목적은 데이터 공개가 아닌 시스템 설계 및 추론 로직 검증입니다
+* 이미지 소유자가 출처 표기 또는 삭제를 요청할 경우 즉시 조치합니다
+
+
