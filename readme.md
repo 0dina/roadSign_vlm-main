@@ -133,7 +133,7 @@ This work demonstrates how Vision-Language Models can **augment conventional obj
 
 ## 시스템 로직 및 판정 기준
 
-본 프로젝트는 **탐지(Detection)**와 **판단(Reasoning)**의 역할을 분리하여 정확도를 높였습니다.
+본 프로젝트는 **탐지(Detection)** 와 **판단(Reasoning)** 의 역할을 분리하여 정확도를 높였습니다.
 
 1.  **탐지 단계 (Detection)**: YOLOv8을 통해 표지판의 위치를 찾고 이미지를 추출합니다.
 2.  **판단 단계 (Reasoning)**: LLaVA-1.5 VLM이 추출된 이미지를 보고 시인성과 물리적 상태를 진단합니다.
@@ -163,5 +163,6 @@ This work demonstrates how Vision-Language Models can **augment conventional obj
 ---
 
 ## 프로젝트 기여 요약 (Contribution Summary)
+
 
 본 프로젝트는 기존 객체 탐지 시스템을 수정하거나 재학습하지 않고, **Vision-Language Model을 결합하여 유지보수 판단이 가능한 인프라 관리 시스템으로 확장한 실증 사례**입니다.
